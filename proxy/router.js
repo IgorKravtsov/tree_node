@@ -11,6 +11,7 @@ const callApi = async (res, ...apiRequest) => {
     const { data } = await axios.post(...apiRequest);
     res.json(data);
   } catch (e) {
+    console.log("===e===", e);
     res.status(500).json({ message: e.message });
   }
 };

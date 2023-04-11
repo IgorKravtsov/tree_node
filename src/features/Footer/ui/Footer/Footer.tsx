@@ -9,8 +9,12 @@ const Footer: FC = () => {
       <Typography variant={"body2"}>Created by Ihor Kravtsov</Typography>
       <ul>
         <li>
-          <a href="" target={"_blank"}>
-            Repo
+          <a
+            href="https://github.com/IgorKravtsov/tree_node"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            GitHub
           </a>
         </li>
       </ul>

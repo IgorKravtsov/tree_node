@@ -1,7 +1,7 @@
 
 # React tree demo
 
-to start project write in a console `npm start`
+to start project install dependecies with the help of `npm ci` and then write in a console `npm start`
 
 `npm start` command will start client with the help of webpack-dev-server and open browser with demo page and will start proxy server
 
