@@ -1,0 +1,27 @@
+.wrapper {
+  padding-top: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.selected {
+  background-color: beige;
+}
+
+.arrow {
+  padding: 0 !important;
+  transition: 0.1s all;
+}
+
+.rotated {
+  transform: rotate(90deg);
+}
+
+.rotated-back {
+  transform: rotate(-90deg);
+}
