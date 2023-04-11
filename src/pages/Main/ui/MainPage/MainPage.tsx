@@ -52,7 +52,7 @@ const MainPage: FC = () => {
   const handleClickTree = useCallback(() => {
     setIsTreeOpened((prev) => !prev);
     setSelectedId(tree?.id ?? -1);
-  }, []);
+  }, [tree]);
 
   if (isError) {
     return <h1>Something went wrong</h1>;
