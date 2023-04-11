@@ -30,22 +30,6 @@ router.post("/get", async (_, res) => {
 });
 
 router.post("/create", async ({ body }, res) => {
-  // try {
-  //   const { data } = await axios.post(
-  //     `${API}/api.user.tree.node.create`,
-  //     {},
-  //     {
-  //       params: {
-  //         ...body,
-  //         treeName: TREE_NAME,
-  //       },
-  //     }
-  //   );
-  //   return res.json(data);
-  // } catch (e) {
-  //   console.log(e);
-  //   return res.status(500).json({ message: e.message });
-  // }
   callApi(
     res,
     `${API}/api.user.tree.node.create`,
@@ -60,22 +44,6 @@ router.post("/create", async ({ body }, res) => {
 });
 
 router.post("/rename", async ({ body }, res) => {
-  // try {
-  //   const { data } = await axios.post(
-  //     `${API}/api.user.tree.node.rename`,
-  //     {},
-  //     {
-  //       params: {
-  //         ...body,
-  //         treeName: TREE_NAME,
-  //       },
-  //     }
-  //   );
-  //   return res.json(data);
-  // } catch (e) {
-  //   console.log(e);
-  //   return res.status(500).json({ message: e.message });
-  // }
   callApi(
     res,
     `${API}/api.user.tree.node.rename`,
@@ -90,22 +58,6 @@ router.post("/rename", async ({ body }, res) => {
 });
 
 router.post("/delete", async ({ body }, res) => {
-  // try {
-  //   const { data } = await axios.post(
-  //     `${API}/api.user.tree.node.delete`,
-  //     {},
-  //     {
-  //       params: {
-  //         ...body,
-  //         treeName: TREE_NAME,
-  //       },
-  //     }
-  //   );
-  //   return res.json(data);
-  // } catch (e) {
-  //   console.log(e);
-  //   return res.status(500).json({ message: e.message });
-  // }
   callApi(
     res,
     `${API}/api.user.tree.node.delete`,
