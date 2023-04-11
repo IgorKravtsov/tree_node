@@ -4,7 +4,6 @@ import "app/styles/index.scss";
 
 import { App } from "app/App";
 import { QueryProvider } from "app/providers/QueryProvider";
-import { StoreProvider } from "app/providers/StoreProvider";
 
 const container = document.getElementById("root");
 
@@ -15,9 +14,7 @@ if (!container) {
 const root = createRoot(container);
 
 root.render(
-  <StoreProvider>
-    <QueryProvider>
-      <App />
-    </QueryProvider>
-  </StoreProvider>
+  <QueryProvider>
+    <App />
+  </QueryProvider>
 );
